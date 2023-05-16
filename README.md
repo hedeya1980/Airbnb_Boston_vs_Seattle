@@ -25,10 +25,15 @@ This file includes is meant for the following:
 ### [process_data.py (the ETL execution file)](https://github.com/hedeya1980/Airbnb_Boston_vs_Seattle/blob/main/process_data.py)
 This file can be executed to produce the cleaned data (cleandedListings & cleanedCalendars) that will be used for the analysis.
 
-```Example1 (cleanedListings): python process_data.py Boston/listings.csv Seattle/listings.csv BostonSeattle.db cleanedListings```
+Example1 (cleanedListings): ```python process_data.py Boston/listings.csv Seattle/listings.csv BostonSeattle.db cleanedListings```
 
-```Example2 (cleanedCalendars): python process_data.py Boston/calendar.csv Seattle/calendar.csv BostonSeattle.db cleanedCalendars```
+Example2 (cleanedCalendars): ```python process_data.py Boston/calendar.csv Seattle/calendar.csv BostonSeattle.db cleanedCalendars```
 
 ### [Data Analysis - Research Questions (Boston vs. Seattle)](https://github.com/hedeya1980/Airbnb_Boston_vs_Seattle/blob/main/Data%20Analysis%20-%20Research%20Questions%20(Boston%20vs.%20Seattle).ipynb)
 This file is where data analysis was performed to answer the above questions.
 
+### [Airbnb - Price Prediction (Boston and Seattle)](https://github.com/hedeya1980/Airbnb_Boston_vs_Seattle/blob/main/Airbnb%20-%20Price%20Prediction%20(Boston%20and%20Seattle).ipynb)
+This file is where I did the following:
+* More data cleaning.
+* Choosing the features that will be used for price prediction.
+* Implementing various regression models for predicting the listings prices.
