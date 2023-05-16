@@ -102,6 +102,7 @@ def clean_calendars_data(df):
     
     # Add new features
     df['month']=df.date.dt.month
+    df['month_name']=df.date.dt.month_name()
     df['year']=df.date.dt.year
     df['month-year']=df.date.dt.strftime('%m-%Y')
     
